@@ -1,0 +1,19 @@
+
+def bubble_sort(nums,aux):
+    n=len(nums)
+    for i in range(n-1):
+        for j in range(n-1-i):
+            if nums[j]>nums[j+1]:
+                aux=nums[j]
+                nums[j]= nums[j+1]
+                nums[j+1]=aux
+    return nums
+
+def sel_sort()
+
+nums=[9,3,5,1,6]
+aux=0
+print("Ordenamiento burbuja")
+print(f"Arreglo desordenado: {nums}")
+nums_sort=bubble_sort(nums,aux)
+print(f"Arreglo ordenado: {nums_sort}")
